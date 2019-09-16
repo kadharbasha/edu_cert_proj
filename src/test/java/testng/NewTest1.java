@@ -28,8 +28,8 @@ public void verifytest() {
 	
  driver.findElement(By.xpath("//a[@href='/content/about-us.php']")).click();
  String bodyText = driver.findElement(By.xpath("//p[@id='PID-ab2-pg']")).getText();
- Assert.assertTrue(bodyText.contains("text"), "Text not found!");
- //Assert.assertTrue(bodyText.contains("Basha"));
+ //Assert.assertTrue(bodyText.contains("text"), "Text not found!");
+ Assert.assertTrue(bodyText.contains("Basha"), "Text not found!");
 }
 @AfterMethod
 public void close(){
