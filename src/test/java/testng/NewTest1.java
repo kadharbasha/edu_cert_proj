@@ -18,7 +18,7 @@ public void launch(){
   System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
   driver = new ChromeDriver();
   driver.manage().window().maximize();
-  driver.get("http://35.176.13.222");
+  driver.get("http://3.9.146.244");
   driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
   String x= driver.getTitle();
   System.out.println(x);
