@@ -2,7 +2,7 @@
 <suite name="webDriver">
 <test name="Tests">
 <classes>
-<class name="testng.NewTest1"></class>
+<class name="testng.AboutPageTestCase"></class>
 </classes>
 </test>
 </suite>
